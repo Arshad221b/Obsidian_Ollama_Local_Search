@@ -9,6 +9,14 @@ An AI-powered assistant for your Obsidian vault that helps you find connections 
 - Visualize connections between notes with an interactive graph
 - See which notes were referenced in the AI's response
 
+## Screenshots
+
+### Setup Screen
+![Setup Screen](screenshots/Screenshot%202025-04-10%20at%2010.34.05%20PM.png)
+
+### Chat Interface
+![Chat Interface](screenshots/Screenshot%202025-04-10%20at%2010.35.42%20PM.png)
+
 ## Installation
 
 ### macOS
