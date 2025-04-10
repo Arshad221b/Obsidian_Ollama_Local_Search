@@ -19,15 +19,6 @@ An AI-powered assistant for your Obsidian vault that helps you find connections 
 
 ## Installation
 
-### macOS
-
-1. Download the `ObsidianAIAssistant.dmg` file
-2. Double-click the DMG file to open it
-3. Drag the "Obsidian AI Assistant" app to your Applications folder
-4. Launch the app from your Applications folder
-
-### Manual Installation
-
 If you prefer to run the application manually:
 
 1. Clone this repository
