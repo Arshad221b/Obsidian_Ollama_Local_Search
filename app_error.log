@@ -1,0 +1,528 @@
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+ERROR:root:Error starting the application: No module named 'flask_socketio'
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info", inode=3505836, flags=28300, id=37297310): is_coalesced, is_created, is_directory, is_removed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.5.1.dist-info", inode=3505327, flags=20800, id=37297313): is_directory, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio", inode=3505837, flags=28300, id=37297323): is_coalesced, is_created, is_directory, is_removed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio", inode=3505323, flags=20800, id=37297326): is_directory, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio", inode=3505838, flags=28100, id=37297333): is_created, is_directory, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__init__.py", inode=3505839, flags=19100, id=37297342): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/namespace.py", inode=3505840, flags=19100, id=37297351): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/test_client.py", inode=3505841, flags=19100, id=37297360): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info", inode=3505842, flags=28100, id=37297366): is_created, is_directory, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/LICENSE", inode=3505843, flags=19100, id=37297375): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/METADATA", inode=3505844, flags=19100, id=37297384): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/WHEEL", inode=3505845, flags=19100, id=37297393): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/top_level.txt", inode=3505846, flags=19100, id=37297402): is_created, is_file, is_modified, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__", inode=3505848, flags=28100, id=37297417): is_created, is_directory, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/__init__.cpython-312.pyc.4344905088", inode=3505849, flags=19900, id=37297429): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/__init__.cpython-312.pyc", inode=3505849, flags=10800, id=37297430): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/namespace.cpython-312.pyc.4344902784", inode=3505850, flags=19900, id=37297442): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/namespace.cpython-312.pyc", inode=3505850, flags=10800, id=37297443): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/test_client.cpython-312.pyc.4344905520", inode=3505851, flags=19900, id=37297455): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/test_client.cpython-312.pyc", inode=3505851, flags=10800, id=37297456): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/INSTALLERs7zi7zbn.tmp", inode=3505852, flags=1d900, id=37297471): is_coalesced, is_created, is_file, is_modified, is_owner_change, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/INSTALLER", inode=3505852, flags=10800, id=37297472): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/REQUESTED", inode=3505853, flags=18100, id=37297478): is_created, is_file, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORDx0_p_uct.tmp", inode=3505854, flags=1d900, id=37297493): is_coalesced, is_created, is_file, is_modified, is_owner_change, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORD", inode=3505854, flags=10800, id=37297494): is_file, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORD", inode=3505847, flags=19900, id=37297495): is_coalesced, is_created, is_file, is_modified, is_renamed, is_xattr_mod
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/RECORD", inode=3505339, flags=10200, id=37297498): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/LICENSE", inode=3505328, flags=10200, id=37297501): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/WHEEL", inode=3505330, flags=10200, id=37297504): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/top_level.txt", inode=3505331, flags=10200, id=37297507): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/REQUESTED", inode=3505338, flags=10200, id=37297510): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/INSTALLER", inode=3505337, flags=10200, id=37297513): is_file, is_removed
+DEBUG:fsevents:queue_event DirCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.5.1.dist-info', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__init__.py', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__init__.py', reloading
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__init__.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__init__.py', reloading
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/namespace.py', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/namespace.py', reloading
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/namespace.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/namespace.py', reloading
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/test_client.py', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/test_client.py', reloading
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/test_client.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/test_client.py', reloading
+DEBUG:fsevents:queue_event DirCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/LICENSE', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/LICENSE', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/METADATA', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/METADATA', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/WHEEL', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/WHEEL', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/top_level.txt', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/top_level.txt', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/__init__.cpython-312.pyc.4344905088', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/__init__.cpython-312.pyc.4344905088', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/__init__.cpython-312.pyc", inode=3505849, flags=10800, id=37297430)
+DEBUG:fsevents:queue_event FileMovedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/__init__.cpython-312.pyc.4344905088', dest_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/__init__.cpython-312.pyc', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/namespace.cpython-312.pyc.4344902784', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/namespace.cpython-312.pyc.4344902784', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/namespace.cpython-312.pyc", inode=3505850, flags=10800, id=37297443)
+DEBUG:fsevents:queue_event FileMovedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/namespace.cpython-312.pyc.4344902784', dest_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/namespace.cpython-312.pyc', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/test_client.cpython-312.pyc.4344905520', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/test_client.cpython-312.pyc.4344905520', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/test_client.cpython-312.pyc", inode=3505851, flags=10800, id=37297456)
+DEBUG:fsevents:queue_event FileMovedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/test_client.cpython-312.pyc.4344905520', dest_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__/test_client.cpython-312.pyc', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/flask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/INSTALLERs7zi7zbn.tmp', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/INSTALLERs7zi7zbn.tmp', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/INSTALLER", inode=3505852, flags=10800, id=37297472)
+DEBUG:fsevents:queue_event FileMovedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/INSTALLERs7zi7zbn.tmp', dest_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/INSTALLER', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/REQUESTED', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/REQUESTED', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORDx0_p_uct.tmp', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORDx0_p_uct.tmp', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:Destination event for rename is NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORD", inode=3505854, flags=10800, id=37297494)
+DEBUG:fsevents:queue_event FileMovedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORDx0_p_uct.tmp', dest_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORD', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORD', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info/RECORD', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/Flask_SocketIO-5.1.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/RECORD', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/LICENSE', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/WHEEL', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/top_level.txt', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/REQUESTED', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/INSTALLER', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/METADATA", inode=3505329, flags=10200, id=37297516): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info", inode=3505327, flags=20a00, id=37297519): is_coalesced, is_directory, is_removed, is_renamed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__init__.py", inode=3505324, flags=10200, id=37297522): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/namespace.py", inode=3505325, flags=10200, id=37297525): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/test_client.py", inode=3505326, flags=10200, id=37297528): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__/test_client.cpython-312.pyc", inode=3505336, flags=10200, id=37297531): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__/namespace.cpython-312.pyc", inode=3505335, flags=10200, id=37297534): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__/__init__.cpython-312.pyc", inode=3505334, flags=10200, id=37297537): is_file, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__", inode=3505333, flags=20200, id=37297540): is_directory, is_removed
+DEBUG:fsevents:NativeEvent(path="/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio", inode=3505323, flags=20a00, id=37297543): is_coalesced, is_directory, is_removed, is_renamed
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info/METADATA', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_SocketIO-5.5.1.dist-info', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__init__.py', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/namespace.py', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__init__.py', reloading
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/namespace.py', reloading
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/test_client.py', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/test_client.py', reloading
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__/test_client.cpython-312.pyc', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__/namespace.cpython-312.pyc', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__/__init__.cpython-312.pyc', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio/__pycache__', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirDeletedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages/~lask_socketio', dest_path='', event_type='deleted', is_directory=True, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/opt/anaconda3/lib/python3.12/site-packages', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+ERROR:root:Error starting the application: cannot import name '_request_ctx_stack' from 'flask' (/opt/anaconda3/lib/python3.12/site-packages/flask/__init__.py)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+ERROR:root:Error starting the application: cannot import name '_request_ctx_stack' from 'flask' (/opt/anaconda3/lib/python3.12/site-packages/flask/__init__.py)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+ERROR:root:Error starting the application: cannot import name '_request_ctx_stack' from 'flask' (/opt/anaconda3/lib/python3.12/site-packages/flask/__init__.py)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.22:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.22:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:26:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:26:34] "GET /static/app.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:26:34] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:26:34] "GET /socket.io/?EIO=4&transport=polling&t=POWeSFS HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:26:34] "POST /socket.io/?EIO=4&transport=polling&t=POWeSFi&sid=waq6KtWYgw4N78hjAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:26:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:26:34] "GET /socket.io/?EIO=4&transport=polling&t=POWeSFk&sid=waq6KtWYgw4N78hjAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:27:36] "GET /socket.io/?EIO=4&transport=websocket&sid=waq6KtWYgw4N78hjAAAA HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/templates/index.html", inode=3414911, flags=11400, id=37320829): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/templates/index.html', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.22:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:29:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:29:35] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:29:35] "GET /static/app.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:29:35] "GET /socket.io/?EIO=4&transport=polling&t=POWf8QM HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:29:35] "POST /socket.io/?EIO=4&transport=polling&t=POWf8Qa&sid=KP5dRQ2z9b2RYlmCAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:29:35] "GET /socket.io/?EIO=4&transport=polling&t=POWf8Qb&sid=KP5dRQ2z9b2RYlmCAAAA HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:11434
+DEBUG:urllib3.connectionpool:http://localhost:11434 "GET /api/tags HTTP/11" 200 669
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:11434
+DEBUG:urllib3.connectionpool:http://localhost:11434 "POST /api/generate HTTP/11" 404 37
+DEBUG:fsevents:NativeEvent(path="/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/app.py", inode=3414885, flags=11400, id=37325264): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/app.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO:werkzeug: * Detected change in '/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:30:51] "GET /socket.io/?EIO=4&transport=polling&t=POWfQ-s HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:30:51] "POST /socket.io/?EIO=4&transport=polling&t=POWfQ-z&sid=cMFdx3IxkYJjfmDgAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:30:51] "GET /socket.io/?EIO=4&transport=polling&t=POWfQ--&sid=cMFdx3IxkYJjfmDgAAAA HTTP/1.1" 200 -
+DEBUG:fsevents:NativeEvent(path="/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/templates/index.html", inode=3414911, flags=11400, id=37326988): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/templates/index.html', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/static/styles.css", inode=3505922, flags=11400, id=37329858): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search/static/styles.css', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.22:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+DEBUG:root:Python path: ['/Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search', '/opt/anaconda3/lib/python312.zip', '/opt/anaconda3/lib/python3.12', '/opt/anaconda3/lib/python3.12/lib-dynload', '/opt/anaconda3/lib/python3.12/site-packages', '/opt/anaconda3/lib/python3.12/site-packages/aeosa']
+DEBUG:root:Current directory: /Users/leonardo/Desktop/obsidian_vault/Obsidian_Ollama_Local_Search
+DEBUG:root:Starting imports...
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG:MARKDOWN:Successfully loaded extension "markdown.extensions.tables.TableExtension".
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 210-339-324
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:54] "GET /socket.io/?EIO=4&transport=polling&t=POWfgLZ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:54] "POST /socket.io/?EIO=4&transport=polling&t=POWfgLd&sid=UoqTEKnOoCHtIkOLAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:54] "GET /socket.io/?EIO=4&transport=polling&t=POWfgLe&sid=UoqTEKnOoCHtIkOLAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:54] "GET /socket.io/?EIO=4&transport=polling&t=POWfgLi&sid=UoqTEKnOoCHtIkOLAAAA HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "GET /socket.io/?EIO=4&transport=websocket&sid=UoqTEKnOoCHtIkOLAAAA HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:11434
+DEBUG:urllib3.connectionpool:http://localhost:11434 "GET /api/tags HTTP/11" 200 669
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "[36mGET /static/app.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "GET /socket.io/?EIO=4&transport=polling&t=POWfhSn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "POST /socket.io/?EIO=4&transport=polling&t=POWfhSt&sid=ZO7Kh1XToCTVehVEAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "GET /socket.io/?EIO=4&transport=polling&t=POWfhSu&sid=ZO7Kh1XToCTVehVEAAAC HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [10/Apr/2025 22:31:58] "GET /socket.io/?EIO=4&transport=polling&t=POWfhSy&sid=ZO7Kh1XToCTVehVEAAAC HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:11434
+DEBUG:urllib3.connectionpool:http://localhost:11434 "GET /api/tags HTTP/11" 200 669
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:11434
+DEBUG:urllib3.connectionpool:http://localhost:11434 "POST /api/generate HTTP/11" 200 None
