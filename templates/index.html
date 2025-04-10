@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obsidian AI Assistant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <style>
+        input, textarea, select {
+            border: 1px solid #d1d5db;
+            padding: 0.5rem;
+            width: 100%;
+            border-radius: 0.375rem;
+        }
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #6366f1;
+            ring: 2px;
+            ring-color: #6366f1;
+        }
+        
+        /* Loading animation */
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 6px solid #e5e7eb;
+            border-top: 6px solid #6366f1;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+        
+        .loading-text {
+            color: #4b5563;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Obsidian-like Markdown styling */
+        .markdown-content {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .markdown-content h1 {
+            font-size: 2em;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            font-weight: 700;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3em;
+        }
+        
+        .markdown-content h2 {
+            font-size: 1.5em;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        .markdown-content h3 {
+            font-size: 1.25em;
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            font-weight: 600;
+        }
+        
+        .markdown-content p {
+            margin-bottom: 1em;
+        }
+        
+        .markdown-content ul, .markdown-content ol {
+            margin-bottom: 1em;
+            padding-left: 2em;
+        }
+        
+        .markdown-content li {
+            margin-bottom: 0.5em;
+        }
+        
+        .markdown-content code {
+            background-color: #f6f8fa;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            font-size: 85%;
+        }
+        
+        .markdown-content pre {
+            background-color: #f6f8fa;
+            padding: 1em;
+            border-radius: 3px;
+            overflow-x: auto;
+            margin-bottom: 1em;
+        }
+        
+        .markdown-content pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+        
+        .markdown-content blockquote {
+            border-left: 4px solid #dfe2e5;
+            padding-left: 1em;
+            margin-left: 0;
+            margin-bottom: 1em;
+            color: #6a737d;
+        }
+        
+        .markdown-content table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 1em;
+        }
+        
+        .markdown-content table th, .markdown-content table td {
+            border: 1px solid #dfe2e5;
+            padding: 0.5em;
+        }
+        
+        .markdown-content table th {
+            background-color: #f6f8fa;
+            font-weight: 600;
+        }
+        
+        .markdown-content img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .markdown-content a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        .markdown-content a:hover {
+            text-decoration: underline;
+        }
+
+        /* Graph visualization styles */
+        #graph-container {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            background-color: white;
+        }
+
+        .graph-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .graph-controls button {
+            padding: 0.5rem 1rem;
+            background-color: #6366f1;
+            color: white;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            transition: background-color 0.2s;
+        }
+
+        .graph-controls button:hover {
+            background-color: #4f46e5;
+        }
+
+        .node-label {
+            font-size: 12px;
+            color: #4b5563;
+        }
+
+        .vis-network {
+            outline: none;
+        }
+
+        .vis-network .vis-node {
+            border-color: #6366f1;
+            background-color: white;
+        }
+
+        .vis-network .vis-edge {
+            border-color: #6366f1;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl font-bold text-center mb-8 text-indigo-600">Obsidian AI Assistant</h1>
+            
+            <div id="setup-form" class="bg-white rounded-lg shadow-md p-6 mb-8">
+                <h2 class="text-2xl font-semibold mb-4">Setup</h2>
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Select Obsidian Vault</label>
+                        <select id="vault-path" class="mt-1 block w-full">
+                            {% for vault in vaults %}
+                            <option value="{{ vault }}">{{ vault }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Model Name</label>
+                        <input type="text" id="model-name" value="gemma3:12b" placeholder="Enter model name" class="mt-1 block w-full">
+                    </div>
+                    <button onclick="initialize()" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                        Initialize
+                    </button>
+                </div>
+            </div>
+
+            <div id="query-section" class="hidden">
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <div class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Your Question</label>
+                            <textarea id="query-input" rows="3" placeholder="Enter your question about your notes" class="mt-1 block w-full"></textarea>
+                        </div>
+                        <button onclick="sendQuery()" class="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                            Ask Question
+                        </button>
+                    </div>
+                </div>
+
+                <div id="response-section" class="hidden">
+                    <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                        <h2 class="text-2xl font-semibold mb-4">Response</h2>
+                        <div id="loading-spinner" class="hidden">
+                            <div class="loading-container">
+                                <div class="loading-spinner"></div>
+                                <p class="loading-text">Thinking...</p>
+                            </div>
+                        </div>
+                        <div id="response-content" class="prose max-w-none"></div>
+                    </div>
+
+                    <div id="files-section" class="bg-white rounded-lg shadow-md p-6">
+                        <h2 class="text-2xl font-semibold mb-4">Referenced Files</h2>
+                        <div id="files-list" class="space-y-2"></div>
+                    </div>
+
+                    <!-- Add graph visualization section -->
+                    <div id="graph-section" class="bg-white rounded-lg shadow-md p-6 mt-8">
+                        <h2 class="text-2xl font-semibold mb-4">Note Connections</h2>
+                        <div class="graph-controls">
+                            <button onclick="resetGraph()">Reset View</button>
+                            <button onclick="togglePhysics()">Toggle Physics</button>
+                        </div>
+                        <div id="graph-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let isInitialized = false;
+
+        // Graph visualization variables
+        let network = null;
+        let nodes = new vis.DataSet([]);
+        let edges = new vis.DataSet([]);
+        let physicsEnabled = true;
+
+        async function initialize() {
+            const vaultPath = document.getElementById('vault-path').value;
+            const modelName = document.getElementById('model-name').value;
+
+            if (!vaultPath) {
+                alert('Please select an Obsidian vault');
+                return;
+            }
+
+            try {
+                const response = await fetch('/initialize', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ vault_path: vaultPath, model_name: modelName }),
+                });
+
+                const data = await response.json();
+                if (data.status === 'success') {
+                    isInitialized = true;
+                    document.getElementById('setup-form').classList.add('hidden');
+                    document.getElementById('query-section').classList.remove('hidden');
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            } catch (error) {
+                alert('Error initializing: ' + error);
+            }
+        }
+
+        // Initialize the graph visualization
+        function initGraph() {
+            const container = document.getElementById('graph-container');
+            const data = {
+                nodes: nodes,
+                edges: edges
+            };
+            const options = {
+                nodes: {
+                    shape: 'dot',
+                    size: 16,
+                    font: {
+                        size: 12
+                    },
+                    borderWidth: 2,
+                    shadow: true
+                },
+                edges: {
+                    width: 2,
+                    shadow: true,
+                    smooth: {
+                        type: 'continuous'
+                    }
+                },
+                physics: {
+                    enabled: true,
+                    stabilization: {
+                        iterations: 100
+                    }
+                },
+                interaction: {
+                    hover: true,
+                    tooltipDelay: 200
+                }
+            };
+            network = new vis.Network(container, data, options);
+        }
+
+        // Reset graph view
+        function resetGraph() {
+            if (network) {
+                network.fit();
+            }
+        }
+
+        // Toggle physics simulation
+        function togglePhysics() {
+            if (network) {
+                physicsEnabled = !physicsEnabled;
+                network.setOptions({ physics: { enabled: physicsEnabled } });
+            }
+        }
+
+        // Update graph with new data
+        function updateGraph(files) {
+            nodes.clear();
+            edges.clear();
+
+            // Add nodes for each file
+            files.forEach((file, index) => {
+                nodes.add({
+                    id: file.name,
+                    label: file.name,
+                    title: file.name
+                });
+
+                // Add edges between consecutive files to show the connection flow
+                if (index > 0) {
+                    edges.add({
+                        from: files[index - 1].name,
+                        to: file.name,
+                        arrows: 'to'
+                    });
+                }
+            });
+
+            // If we have nodes, initialize the graph
+            if (nodes.length > 0 && !network) {
+                initGraph();
+            }
+        }
+
+        async function sendQuery() {
+            const query = document.getElementById('query-input').value;
+            
+            if (!query) {
+                alert('Please enter your question');
+                return;
+            }
+
+            // Show loading spinner and hide previous response
+            const loadingSpinner = document.getElementById('loading-spinner');
+            const responseContent = document.getElementById('response-content');
+            const filesList = document.getElementById('files-list');
+            
+            loadingSpinner.classList.remove('hidden');
+            responseContent.innerHTML = '';
+            filesList.innerHTML = '';
+            document.getElementById('response-section').classList.remove('hidden');
+
+            try {
+                const response = await fetch('/query', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query }),
+                });
+
+                const data = await response.json();
+                if (data.status === 'success') {
+                    responseContent.innerHTML = data.response;
+                    
+                    // Apply syntax highlighting to code blocks
+                    document.querySelectorAll('pre code').forEach((block) => {
+                        hljs.highlightBlock(block);
+                    });
+                    
+                    filesList.innerHTML = '';
+                    data.files.forEach(file => {
+                        const fileElement = document.createElement('div');
+                        fileElement.className = 'p-2 bg-gray-50 rounded';
+                        fileElement.textContent = file.name;
+                        filesList.appendChild(fileElement);
+                    });
+
+                    // Update the graph visualization
+                    updateGraph(data.files);
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            } catch (error) {
+                alert('Error querying: ' + error);
+            } finally {
+                // Hide loading spinner
+                loadingSpinner.classList.add('hidden');
+            }
+        }
+    </script>
+</body>
+</html> 
