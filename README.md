@@ -12,10 +12,10 @@ An AI-powered assistant for your Obsidian vault that helps you find connections 
 ## Screenshots
 
 ### Setup Screen
-![Setup Screen](screenshots/Screenshot%202025-04-10%20at%2010.34.05%20PM.png)
+<img src="./screenshots/setup.png" alt="Setup Screen" width="800"/>
 
 ### Chat Interface
-![Chat Interface](screenshots/Screenshot%202025-04-10%20at%2010.35.42%20PM.png)
+<img src="./screenshots/chat.png" alt="Chat Interface" width="800"/>
 
 ## Installation
 
