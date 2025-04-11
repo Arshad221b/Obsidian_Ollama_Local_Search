@@ -82,7 +82,7 @@ class ObsidianAI:
             response = requests.post(self.ollama_url, json=data)
             response.raise_for_status()
             result = response.json()
-            print(f"Received response from Ollama: {result}")
+            # print(f"Received response from Ollama: {result}")
             return result["response"]
         except requests.exceptions.ConnectionError:
             raise Exception("Could not connect to Ollama. Make sure it's running.")
@@ -104,12 +104,15 @@ class ObsidianAI:
             batch_size = 10
             for i in range(0, len(all_files), batch_size):
                 batch = all_files[i:i+batch_size]
+                # print("Found context in following files:")
+                # count = 1
                 for file_path in batch:
                     content = self.read_markdown_file(file_path)
                     # Check if any of the query terms are in the content
                     if any(term in content.lower() for term in query_terms):
                         relevant_files.append((file_path, content))
-                        print(f"Found relevant file: {file_path}")
+                        # print(f"file : {file_path}")
+                        # count += 1
             
             print(f"Found {len(relevant_files)} relevant files")
             return relevant_files

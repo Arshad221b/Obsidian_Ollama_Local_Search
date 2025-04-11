@@ -100,7 +100,7 @@ try:
             
             print("Querying Ollama...")
             response = ai_instance.query_ollama(user_query, context)
-            print(f"Received response: {response}")
+            # print(f"Received response: {response}")
             
             # Format the response as HTML
             formatted_response = format_markdown_response(response)
